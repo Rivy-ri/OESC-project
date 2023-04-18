@@ -94,5 +94,6 @@ Enter your email on *SenderEmail* and password on *SenderPassword* it will work 
 > 	In this case you have blocked port for STMP service, unblock it or you can't registrate in to app and use it.
 
 
+`<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="adelakopecka" data-color="#a1ca2f" data-emoji="☕"  data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#FFDD00" ></script>`
 
 
