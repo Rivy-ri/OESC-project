@@ -94,8 +94,10 @@ Enter your email on *SenderEmail* and password on *SenderPassword* it will work 
 ##### Troubleshooting of installation
 > **App won't connect to database**
 > 	This happens when the configuration file is filled incorrectly or your database is accessible on the Internet, another reason is that the Internet access is prohibited. Another possibility is that the Login you use from the program has access to only the databases on the server.
+> 	
 > **App won't send an email or crash of app after sending an email** 
 > 	In this case is possible that your email is wrong or SMTP server information are wrong, also if you are using Gmail you have to allow third party to use your email. Also is necessary to be connected to an internet.
+> 	
 > **App won't connect to sender**
 > 	In this case you have blocked port for STMP service, unblock it or you can't registrate in to app and use it.
 
