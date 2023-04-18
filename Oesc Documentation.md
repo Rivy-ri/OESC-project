@@ -68,22 +68,26 @@ OESC uses a relational database specifically [sql Server(Microsoft)](https://www
   Open in text editor:  ***OmegaSportExplorerClub.dll.config***
   
   >***Now set up database setting part of configuration file***:
- On this line enter your server name instead of *NameOfYourServer* :
-`<add key="DatabaseDataSource" value="NameOfYourServer"/>`
-On this line you will enter your user name of your log in to database on place *NameOfUser* :
-`<add key="DatabaseLogInName" value="NameOfUser"/>`
- On this line you will fill password of your log in on place *PasswordOfUser* :
-`<add key="DatabaseLogInPassword" value="PasswordOfUser"/> `
+> On this line enter your server name instead of *NameOfYourServer* :
+> `<add key="DatabaseDataSource" value="NameOfYourServer"/>`
+
+>On this line you will enter your user name of your log in to database on place *NameOfUser* :
+> `<add key="DatabaseLogInName" value="NameOfUser"/>`
+
+> On this line you will fill password of your log in on place *PasswordOfUser* :
+> `<add key="DatabaseLogInPassword" value="PasswordOfUser"/> `
 
   >***Now set up email sender*** :
 Enter your email on *SenderEmail* and password on *SenderPassword* it will work as sender of verification email, program won't abuse youe data.
 `<add key="RegistrationEmailSenderEmail" value="SenderEmail"/>`
 `<add key="RegistrationEmailSenderPassword" value="SenderPassword"/>`
- Last tow lines are port and SMTP server of services to which your email belongs.
- Those information can be found on service website
- List of services with link on website with this information([seznam](https://napoveda.seznam.cz/cz/imap-pop3-smtp/),[gmail](https://kinsta.com/blog/gmail-smtp-server/),[outlook](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353))
- Fill smtp email information instead of *SMTPEmail*: `<add key="StmEmail" value="SMTPEmail/>`
- Fill smtp port information instead of *SMTPPort*: `<add key="StmPort" value="SMTPPort"/>`
+
+> Last tow lines are port and SMTP server of services to which your email belongs.
+> Those information can be found on service website
+> List of services with link on website with this information([seznam](https://napoveda.seznam.cz/cz/imap-pop3-smtp/),[gmail](https://kinsta.com/blog/gmail-smtp->server/),[outlook](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353))
+> 
+ >Fill smtp email information instead of *SMTPEmail*: `<add key="StmEmail" value="SMTPEmail/>`
+ >Fill smtp port information instead of *SMTPPort*: `<add key="StmPort" value="SMTPPort"/>`
 
 6. After is configuration file filled save it and your app shut successfully connect and send verification codes, after that open *OmegaSportExplorerClub.exe*. In Case of problems look in to ***troubleshooting*** section.
 
