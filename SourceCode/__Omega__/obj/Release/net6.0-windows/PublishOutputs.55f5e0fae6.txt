@@ -1,0 +1,24 @@
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\OmegaSportExplorerClub.exe
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\OmegaSportExplorerClub.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\OmegaSportExplorerClub.deps.json
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\OmegaSportExplorerClub.runtimeconfig.json
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\OmegaSportExplorerClub.dll.config
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\OmegaSportExplorerClub.pdb
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\BCrypt.Net-Next.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\Dark Mode UI.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\LiveCharts.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\LiveCharts.WinForms.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\LiveCharts.Wpf.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\MailKit.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\MaterialSkin.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\MimeKit.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\BouncyCastle.Crypto.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\System.Data.SqlClient.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\System.Security.Cryptography.Pkcs.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\Zen.Barcode.Core.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\runtimes\win-arm64\native\sni.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\runtimes\win-x64\native\sni.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\runtimes\win-x86\native\sni.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\relis\Desktop\Omega_odevzdání\SourceCode\__Omega__\bin\Release\net6.0-windows\app.publish\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll

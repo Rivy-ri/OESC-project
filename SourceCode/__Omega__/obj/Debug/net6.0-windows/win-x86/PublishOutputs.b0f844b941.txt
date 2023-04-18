@@ -1,0 +1,19 @@
+D:\Omega_odevzdání\Application\OmegaSportExplorerClub.exe
+D:\Omega_odevzdání\Application\OmegaSportExplorerClub.dll
+D:\Omega_odevzdání\Application\OmegaSportExplorerClub.deps.json
+D:\Omega_odevzdání\Application\OmegaSportExplorerClub.runtimeconfig.json
+D:\Omega_odevzdání\Application\OmegaSportExplorerClub.dll.config
+D:\Omega_odevzdání\Application\OmegaSportExplorerClub.pdb
+D:\Omega_odevzdání\Application\BCrypt.Net-Next.dll
+D:\Omega_odevzdání\Application\Dark Mode UI.dll
+D:\Omega_odevzdání\Application\LiveCharts.dll
+D:\Omega_odevzdání\Application\LiveCharts.WinForms.dll
+D:\Omega_odevzdání\Application\LiveCharts.Wpf.dll
+D:\Omega_odevzdání\Application\MailKit.dll
+D:\Omega_odevzdání\Application\MaterialSkin.dll
+D:\Omega_odevzdání\Application\MimeKit.dll
+D:\Omega_odevzdání\Application\BouncyCastle.Crypto.dll
+D:\Omega_odevzdání\Application\System.Data.SqlClient.dll
+D:\Omega_odevzdání\Application\System.Security.Cryptography.Pkcs.dll
+D:\Omega_odevzdání\Application\Zen.Barcode.Core.dll
+D:\Omega_odevzdání\Application\sni.dll

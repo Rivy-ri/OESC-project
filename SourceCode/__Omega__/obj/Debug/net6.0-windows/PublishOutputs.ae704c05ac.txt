@@ -1,0 +1,24 @@
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\OmegaSportExplorerClub.exe
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\OmegaSportExplorerClub.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\OmegaSportExplorerClub.deps.json
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\OmegaSportExplorerClub.runtimeconfig.json
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\OmegaSportExplorerClub.dll.config
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\OmegaSportExplorerClub.pdb
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\BCrypt.Net-Next.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\Dark Mode UI.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\LiveCharts.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\LiveCharts.WinForms.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\LiveCharts.Wpf.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\MailKit.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\MaterialSkin.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\MimeKit.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\BouncyCastle.Crypto.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\System.Data.SqlClient.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\System.Security.Cryptography.Pkcs.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\Zen.Barcode.Core.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\runtimes\win-arm64\native\sni.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\runtimes\win-x64\native\sni.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\runtimes\win-x86\native\sni.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Omega_odevzdání\SourceCode\__Omega__\bin\Debug\net6.0-windows\publish\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
