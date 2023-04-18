@@ -1,6 +1,9 @@
->**Name of project :** Omega explorer sports club (OESC)		
+>**Name of project :** Omega explorer sports club (OESC)	
+>	
 >**Author :** Adéla Kopecká
+>
 >**Contact on author:**  adela-kopecka@post.cz
+>
 >**Date of creation :** 16.4.2023
 ---
 ## Table of Contents
@@ -19,9 +22,12 @@ In summary, our volleyball club management software is the ultimate tool for man
 
 #### Samples from the application
 >[Log in form show](https://drive.google.com/file/d/1UBs70VfRagPqJhbMiPAxOhd7wWxRNjIn/view?usp=share_link)
-  [Registration form show](https://drive.google.com/file/d/1zp-D1jhVsdV1evDLmcs-_E1q-sZcQbH-/view?usp=share_link)
-  [Main menu form show](https://drive.google.com/file/d/1inwUPhuEPSTuSno-6925ODJ_gka4dvDP/view?usp=share_link)
-  [App demo video](https://drive.google.com/file/d/165lpFoRprHvCmi08-2ymhV2QSl2zwjje/view?usp=share_link)
+>
+> [Registration form show](https://drive.google.com/file/d/1zp-D1jhVsdV1evDLmcs-_E1q-sZcQbH-/view?usp=share_link)
+>  
+>  [Main menu form show](https://drive.google.com/file/d/1inwUPhuEPSTuSno-6925ODJ_gka4dvDP/view?usp=share_link)
+>  
+>  [App demo video](https://drive.google.com/file/d/165lpFoRprHvCmi08-2ymhV2QSl2zwjje/view?usp=share_link)
 
 ---
 ## Structure of Program
