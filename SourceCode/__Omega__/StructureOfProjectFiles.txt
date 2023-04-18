@@ -1,0 +1,113 @@
+﻿Name of project: Omega explorer sports club (OESC)						
+Author: Adéla Kopecká
+Contact: adela-kopecka@post.cz
+It is it an school project for:
+
+		Střední průmyslová škola elektrotechnická, Praha 2, Ječná 30
+
+
+-------------------------------------------------------------------------
+1. Structure of project folder:
+	* src - source code written by me
+	* app.config - configuration file for connecting to database
+	* Resources - recourse image used by app
+	* Properties - inside there is user setting used for remember me function
+
+
+2. Third side libraries / Nuget packages:
+	* BCrypt.Net-Next (Author: ChrisMcKee)
+		- used for hashing and salting of passwords
+	* DarkModeUI (Author:)
+		- used for side meny in MainMeny form
+	* LiveCharts and LiveCharts.WinForms (Author: beto-rodriguez)
+		- Library page: https://v0.lvcharts.com/
+		- Library GitHub source code: https://github.com/Live-Charts/Live-Charts
+		- used for pie graph and cartesian graphs
+
+	* MailKit (Author: jstedfast)
+		- Library page:	http://www.mimekit.net/
+		- Library GitHub source code: https://github.com/jstedfast/MailKit
+		- used for email verification in registration form
+
+	* MimeKit(Author: jstedfast)
+		- Library page:	http://www.mimekit.net/
+		- Library GitHub source code: https://github.com/jstedfast/MimeKit
+		- used for creating an email message in registration form
+
+	* MaterialSkin.2 (Authors: orapps44 and leocb)
+		- Library GitHub source code: https://github.com/leocb/MaterialSkin
+		- used for visual of windows forms
+
+	* System.Data.SqlClient (Authors: Microsoft and dotnetframework)
+		- nuget.org website: https://www.nuget.org/packages/Microsoft.Data.SqlClient
+
+	* Zen.Barcode.Rendering.Framework (Authors: DementedDevil and chrisfcarroll)
+		- nuget.org website: https://www.nuget.org/packages/Zen.Barcode.Rendering.Framework 
+
+
+
+3. src folder stracture (* folder ; - class ):
+	* Connection
+		- ConnectionSingleton : Class is an singleton design pattern, and contain an connection to database from app.config
+		- SqlInjectionCheck : Class check if given text is not sql injection
+
+	* DatabaseEntity 
+		- Card : class represent card entity in database
+		- Coach : class represent coach entity in database
+		- Match : class represent match_statistic entity in database
+		- Parent : class represent parent entity in database
+		- Player : class represent parent entity in database
+		- Team : class represent team entity in database
+		- TrainingGroup : class represent trainingGroup entity in database
+
+	* DatabaseEntityCommands
+		- CardCommands : Class represent an gateway for card to communicate with and database entity
+		- CoachCommands : Class represent an gateway for coach to communicate with and database entity
+		- MatchCommands : Class represent an gateway for match to communicate with and database entity
+		- ParentCommands : Class represent an gateway for parent to communicate with and database entity
+		- PlayerCommands : Class represent an gateway for player to communicate with and database entity
+		- TeamAlterPlayerListCommands : Class represent an gateway for changing an players in team to ant then communicate this to database
+		- TeamCommands : Class represent an gateway for team it self to communicate with and database
+		- TrainingGroupCommands : Class represent an gateway for training group to communicate with and database
+
+	* DatabaseEntityWorkers
+		* WorkersCollection : it is an collection of different classes that from inserter inputs take care about making change in database with transactions an DatabaseEntityCommands classes
+		- DatabaseEntityWorkersFacade : facade used for control of WorkersCollection classes
+
+	* DatabaseReaders
+		* ReadersCollection : collection of different classes used for reading information from database with or without inputs and write it in to datagrid or something else
+		- DatabaseReaderFacade : facade used for control of ReadersCollection classes
+
+	* Enums
+		- Majoamount of playersrity : represent an type of majority/ position of player like libero etc.
+		- TrainingGroupsTypes : represent an types of groups for example adults etc.
+
+	* Graphs
+		- TeamsMatchStatistic : calass that get data for column graph and write it in it
+		- TrainingGroupPlayersCountStatistic : class that get data for pie graph and write the in it
+
+	* Interfaces
+		- InterfaceCommands
+		- InterfaceId
+		- InterfaceReaderWidoutParametr
+		- InterfaceReaderWithParametr
+		- InterfaceVerificationCommand
+
+	* Other
+		- ConfigurationWorker : class that read form configuration file
+		- MyRegex : class that check correctness of an format in strings
+		- StoreFile : class that handle file store process
+
+	* User
+		* VerifyRegistrationCommands
+		- User : Class that represent user 
+		- UserLogIn : Class that handle log in process
+		- UserRegistration : class that handle registration process
+
+4. windowsForms folder structure
+		- LogIn: Login form for user
+		- MainMeny: MainMeny form for user separated in to partial classes
+			\	\_ MainMenyPartialClassOne
+			 \_ MainMenyPartialClassTow
+		- Registration: Registration form for user
+
