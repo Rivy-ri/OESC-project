@@ -5,6 +5,8 @@
 >**Contact on author:**  adela-kopecka@post.cz
 >
 >**Date of creation :** 16.4.2023
+>
+<a href="https://www.buymeacoffee.com/adelakopecka" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 ---
 ## Table of Contents
 1.  Description of Program
@@ -93,7 +95,5 @@ Enter your email on *SenderEmail* and password on *SenderPassword* it will work 
 > **App won't connect to sender**
 > 	In this case you have blocked port for STMP service, unblock it or you can't registrate in to app and use it.
 
-
-`<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="adelakopecka" data-color="#a1ca2f" data-emoji="☕"  data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#FFDD00" ></script>`
 
 
