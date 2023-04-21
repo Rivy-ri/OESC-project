@@ -99,7 +99,12 @@ Enter your email on *SenderEmail* and password on *SenderPassword* it will work 
 > 	In this case is possible that your email is wrong or SMTP server information are wrong, also if you are using Gmail you have to allow third party to use your email. Also is necessary to be connected to an internet.
 > 	
 > **App won't connect to sender**
-> 	In this case you have blocked port for STMP service, unblock it or you can't registrate in to app and use it.
+> 	In this case you have blocked port for STMP service and you can't unblocked it or change internet connection insert in to database this, but ***it is not advised to do that!***:   
+> 	`Insert into AplicationUser values('root','UPXQ1F','email@example.com',''$2a$11$qaaOIYqzLVWY7WQ4SVDSxO'	,'$2a$11$qaaOIYqzLVWY7WQ4SVDSxOHz9bJhLJTFmiE94Bns6X92Gg2f.YDhe');` 
+> 	
+>			**user name:** *root*
+>			
+>			**password:** *root*
 
 
 
