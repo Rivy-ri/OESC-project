@@ -72,14 +72,18 @@ OESC uses a relational database specifically [sql Server(Microsoft)](https://www
 > `<add key="DatabaseDataSource" value="NameOfYourServer"/>`
 
 >On this line you will enter your user name of your log in to database on place *NameOfUser* :
+>
 > `<add key="DatabaseLogInName" value="NameOfUser"/>`
 
 > On this line you will fill password of your log in on place *PasswordOfUser* :
+> 
 > `<add key="DatabaseLogInPassword" value="PasswordOfUser"/> `
 
   >***Now set up email sender*** :
 Enter your email on *SenderEmail* and password on *SenderPassword* it will work as sender of verification email, program won't abuse youe data.
+
 `<add key="RegistrationEmailSenderEmail" value="SenderEmail"/>`
+
 `<add key="RegistrationEmailSenderPassword" value="SenderPassword"/>`
 
 > Last tow lines are port and SMTP server of services to which your email belongs.
@@ -87,6 +91,7 @@ Enter your email on *SenderEmail* and password on *SenderPassword* it will work 
 > List of services with link on website with this information([seznam](https://napoveda.seznam.cz/cz/imap-pop3-smtp/),[gmail](https://kinsta.com/blog/gmail-smtp->server/),[outlook](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-8361e398-8af4-4e97-b147-6c6c4ac95353))
 > 
  >Fill smtp email information instead of *SMTPEmail*: `<add key="StmEmail" value="SMTPEmail/>`
+ >
  >Fill smtp port information instead of *SMTPPort*: `<add key="StmPort" value="SMTPPort"/>`
 
 6. After is configuration file filled save it and your app shut successfully connect and send verification codes, after that open *OmegaSportExplorerClub.exe*. In Case of problems look in to ***troubleshooting*** section.
@@ -102,9 +107,9 @@ Enter your email on *SenderEmail* and password on *SenderPassword* it will work 
 > 	In this case you have blocked port for STMP service and you can't unblocked it or change internet connection insert in to database this, but ***it is not advised to do that!***:   
 > 	`Insert into AplicationUser values('root','UPXQ1F','email@example.com',''$2a$11$qaaOIYqzLVWY7WQ4SVDSxO'	,'$2a$11$qaaOIYqzLVWY7WQ4SVDSxOHz9bJhLJTFmiE94Bns6X92Gg2f.YDhe');` 
 > 	
->			**user name:** *root*
+>	**user name:** *root*
 >			
->			**password:** *root*
+>	**password:** *root*
 
 
 
