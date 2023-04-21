@@ -61,7 +61,7 @@ OESC uses a relational database specifically [sql Server(Microsoft)](https://www
 ##### To install OESC, follow these steps:
 1. Set up database server and create new log in with access in to Omega database 
     (If you doesn't have Sql server and Microsoft management studio use [this tutorial](https://www.youtube.com/watch?v=kGdTg-vGs-E) )
-2. Open ***ExportOfOESCDatabase.sql*** script from Database folder in Microsoft management studio   and run the script.
+2. Open ***OESC database structure export.sql*** script from Database folder in Microsoft management studio and run the script, then run  ***OESC dial.sql*** both scripts have to be runnered at same database.
 3. Check if whole database exist on your server. If there is problem check troubleshot part.
 4. Open ***Application*** folder, if you doesn't have installed .Net 6.0 then downland it from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0), after that continue. If you have .Net 6.0 then click on ***OmegaSportExplorerClub.exe*** app will open, but show you are disconnected from database. Close app and continue with setting up configuration file. 
 5. Setting up configuration file: 
