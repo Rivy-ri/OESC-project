@@ -4,7 +4,7 @@
 >
 >**Contact on author:**  adela-kopecka@post.cz
 >
->**Date of creation :** 18.4.2023
+>**Date of creation :** 23.4.2023
 >
 <a href="https://www.buymeacoffee.com/adelakopecka" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 ---
@@ -62,9 +62,10 @@ OESC uses a relational database specifically [sql Server(Microsoft)](https://www
 1. Set up database server and create new log in with access in to Omega database 
     (If you doesn't have Sql server and Microsoft management studio use [this tutorial](https://www.youtube.com/watch?v=kGdTg-vGs-E) )
 2. Open ***OESC database structure export.sql*** script from Database folder in Microsoft management studio and run the script, then run  ***OESC dials.sql*** and ***OESC calculate age trigger.sql*** all scripts have to be runnered at same database in defined order.
-3. Check if whole database exist on your server. If there is problem check troubleshot part.
-4. Open ***Application*** folder, if you doesn't have installed .Net 6.0 then downland it from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0), after that continue. If you have .Net 6.0 then click on ***OmegaSportExplorerClub.exe*** app will open, but show you are disconnected from database. Close app and continue with setting up configuration file. 
-5. Setting up configuration file: 
+3. Create an Login to servere with public role and then and it in to database users with db_owner privilege.
+4. Check if whole database exist on your server. If there is problem check troubleshot part.
+5. Open ***Application*** folder, if you doesn't have installed .Net 6.0 then downland it from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0), after that continue. If you have .Net 6.0 then click on ***OmegaSportExplorerClub.exe*** app will open, but show you are disconnected from database. Close app and continue with setting up configuration file. 
+6. Setting up configuration file: 
   Open in text editor:  ***OmegaSportExplorerClub.dll.config***
   
   >***Now set up database setting part of configuration file***:
@@ -104,12 +105,11 @@ Enter your email on *SenderEmail* and password on *SenderPassword* it will work 
 > 	In this case is possible that your email is wrong or SMTP server information are wrong, also if you are using Gmail you have to allow third party to use your email. Also is necessary to be connected to an internet.
 > 	
 > **App won't connect to sender**
-> 	In this case you have blocked port for STMP service and you can't unblocked it or change internet connection insert in to database this, but ***it is not advised to do that!***:   
-> 	`Insert into AplicationUser values('root','UPXQ1F','email@example.com',''$2a$11$qaaOIYqzLVWY7WQ4SVDSxO'	,'$2a$11$qaaOIYqzLVWY7WQ4SVDSxOHz9bJhLJTFmiE94Bns6X92Gg2f.YDhe');` 
-> 	
->	**user name:** *root*
+>In this case you have blocked port for STMP service and you can't unblocked it or change internet connection insert in to database this, but ***it is not advised to do that!***:   
+>`Insert into AplicationUser values('root','UPXQ1F','email@example.com',''$2a$11$qaaOIYqzLVWY7WQ4SVDSxO','$2a$11$qaaOIYqzLVWY7WQ4SVDSxOHz9bJhLJTFmiE94Bns6X92Gg2f.YDhe');` 
+>			**user name:** *root*
 >			
->	**password:** *root*
+>			**password:** *root*
 
 
 
