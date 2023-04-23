@@ -107,9 +107,10 @@ Enter your email on *SenderEmail* and password on *SenderPassword* it will work 
 > **App won't connect to sender**
 >In this case you have blocked port for STMP service and you can't unblocked it or change internet connection insert in to database this, but ***it is not advised to do that!***:   
 >`Insert into AplicationUser values('root','UPXQ1F','email@example.com',''$2a$11$qaaOIYqzLVWY7WQ4SVDSxO','$2a$11$qaaOIYqzLVWY7WQ4SVDSxOHz9bJhLJTFmiE94Bns6X92Gg2f.YDhe');` 
->			**user name:** *root*
+>
+>	**user name:** *root*
 >			
->			**password:** *root*
+>	**password:** *root*
 
 
 
