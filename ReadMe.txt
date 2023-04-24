@@ -14,4 +14,4 @@ It is it an school project for:
 	* TestCase- contain test case in .rtf and .pdf format
 
 2. How to install app and set up database:
-	- How to install is located in Documentation>Oesc Documentation.pdf as 4th point
+	- How to install is located in Oesc Documentation.pdf as 4th point
