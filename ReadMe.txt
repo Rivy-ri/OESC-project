@@ -16,4 +16,4 @@ It is it an school project for:
 2. How to install app and set up database:
 	- How to install is located in Oesc Documentation.pdf as 4th point
 	
-3. Project presentation in czech in Oesc Documentation.pdf
+3. Project presentation in czech in Oesc Documentation.pdf as 1st point
