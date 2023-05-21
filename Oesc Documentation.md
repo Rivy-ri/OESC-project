@@ -21,9 +21,8 @@ Introducing our comprehensive volleyball club management software. Our program p
 With our program, you can schedule matches and track detailed statistics on your teams and matches, giving you the insights you need to make informed decisions about your club. Our advanced reporting features include pie charts that show the breakdown of players in each training group, as well as detailed match reports that help you understand your team's performance.
 To make your life even easier, our program allows you to download your player data in CSV format, giving you complete control over your data. Our charts and graphs make it easy to visualize and analyse your player data, so you can make informed decisions about your club.
 In summary, our volleyball club management software is the ultimate tool for managing your volleyball club. Its powerful features and user-friendly interface help you manage your club with ease and make informed decisions about your team.
-#### Official czech presentation fro project
+#### Official czech presentation for project
 [Link for canva presentation of project](https://www.canva.com/design/DAFgtnIuCGI/lOfxzNtzF26_RQabSWWP2A/view?utm_content=DAFgtnIuCGI&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu)
-
 
 #### Samples from the application
 >[Log in form show](https://drive.google.com/file/d/1UBs70VfRagPqJhbMiPAxOhd7wWxRNjIn/view?usp=share_link)
